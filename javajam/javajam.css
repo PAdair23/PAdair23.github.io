@@ -1,0 +1,31 @@
+body {
+    background-color: #fcebb6;
+    color: #221811;
+    font-family: tahoma, arial, sans-serif;
+}
+
+header{
+    background-color: #d2b48c;
+    color: #8c3826;
+    text-align: center ;
+}
+
+h1{
+    line-height: 200%;
+}
+
+h2{
+    color: #8c3826;
+}
+
+nav{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #d2b48c;
+    font-size: .6em;
+    text-align: center;
+    font-style: italic;
+}
