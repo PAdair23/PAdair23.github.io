@@ -1,0 +1,66 @@
+body{
+	width: 1000px;
+	margin: auto;
+	background-color: #e6f7ff;
+	
+}
+
+div.banner{
+	padding-top: 35px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: 125%;
+	background-image: url(pictures/monochrome1.jpg);
+	color: #ffffff;
+}
+
+.banner li{
+	display: inline;
+	padding-right: 20px;	
+}
+
+.banner a{
+	color: #00bfff;
+	font-size: 100%;
+}
+
+img.float{
+	float: left;
+	margin-right: 10px;
+	padding-bottom: 25px;
+	width: 150px;
+	height: 150px;
+}
+
+h2.clear{
+clear: left;
+}
+
+h4{
+	text-decoration: underline;
+	padding-left: 20px;
+}
+
+img.caps {
+	height: 450px;
+	width: 800px;
+}
+
+div.caps {
+text-align:center;
+margin:24px auto;
+border: 6px solid #ff6666;
+padding: 12px;
+}
+
+div.footer{
+	background-color: #333333;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 1px;
+	padding-bottom: 10px;
+}
+
+p.pref{
+	text-align: center;
+}

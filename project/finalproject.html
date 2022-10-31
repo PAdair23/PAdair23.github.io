@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta name="description" content="Learn more about mechanical keyboards and check out some awesome custom keycaps!" />
+<meta name="keywords" content="KeyCap, Keyboards, Mechanical Keyboards, CherryMX, Custom" />
+<meta name="author" content="Parker Adair" />
+
+<link href="finalstyle.css" rel="stylesheet" type="text/css" />
+ <title>Keyboard Kingdom</title>
+ 
+	<script type="text/javascript">
+		
+		
+		function image(){
+		document.getElementById("mainpic").src = "pictures/standard.jpg";
+		document.getElementById("caption").innerHTML = "Nothing special about these. Just your typcial black keycaps.";
+		}
+		
+		function image1(){
+		document.getElementById("mainpic").src = "pictures/pudding.jpg";
+		document.getElementById("caption").innerHTML = "Pudding keycaps offer opaque sides so that the lighting of your keyboard can really shine through.";
+		}
+		
+		function image2(){
+		document.getElementById("mainpic").src = "pictures/customp.jpg";
+		document.getElementById("caption").innerHTML = "There are limitless designs for custom keycaps, this set has custom purple color, graphics, and shape.";
+		}
+		
+		function image3(){
+		document.getElementById("mainpic").src = "pictures/blanks.jpg";
+		document.getElementById("caption").innerHTML = "There are limitless designs for custom keycaps, this set has no markings on them and is just plain white.";
+		}
+		
+		function preference(){
+		var layout;
+		layout = document.getElementById("layoutpref").value;
+		var switchtype;
+		switchtype = document.getElementById("switchpref").value;
+		var keycaps;
+		keycaps = document.getElementById("cappref").value;
+		
+		document.getElementById("output").innerHTML = " " + layout + " layout with " + switchtype + " switches and " + keycaps + " caps! Sounds like a sweet keyboard!";
+		}
+		
+		function message(){
+		var userName;
+		userName = document.getElementById("name").value;
+		document.getElementById("heading").innerHTML = "Hello " + userName + ". Thank you for visiting the site!";
+		}
+	</script>
+</head>
+
+<body>
+
+	<div class="banner">
+	Welcome to the Keyboard Kingdom. We hope that you enjoy the site and gain some love and knowledge for mechanical keyboards!
+		<p>
+		Related Sites
+		</P>
+		<ul>
+		<li><a href="index.html">Keyboard Kingdom</a></li>
+        <li><a href="https://www.reddit.com/r/MechanicalKeyboards/">r/ MechanicalKeyboards Reddit</a></li>
+		<li><a href="https://www.keyboardco.com/blog/index.php/2012/12/an-introduction-to-cherry-mx-mechanical-switches/">Differences in Keyswitches</a></li>
+		<li><a href="https://www.corsair.com/us/en/Categories/Products/Gaming-Keyboards/c/Cor_Products_Keyboards">Corsair keyboard store page</a></li>
+		</ul>
+	</div>
+	
+	<h1>Mechanical Keyboards</h1>
+		
+		<label for="name">What is your name?</label> 
+		<input type="text" id="name" />
+		<p><button onclick="message();">Write Message</button></p>
+		<h2 id="heading"></h2>
+		
+	
+	<hr> </hr>
+	<div>
+		<h2>What is a mechanical keyboard</h2>
+		<img class="float" src="pictures/diagram.gif" alt="mechanical keyswitch diagram">
+		<p>
+		Non mechanical keyboards have rubber domes underneath with small conductive layers attached on either side of it, when you 
+		press down on the key, it forces the 2 conductive layers together to signal your computer that the key is being pressed.
+		This requires the key to be pressed all the way down and leads to a mushy feeling keyboard. 
+		Mechanical keyboards use a physical switch with multiple parts underneath the cap. When pressing down the keys, you eventually hit
+		the actuation point (typically around 2mm) that sends the signal to your computer that the key has been pressed. These switches are faster,
+		more tactile, and last longer than membrane keyboards.
+		</p>		
+		<p>
+		There are also many types of shapes and sizes that mechanical keyboards come in. Some of the most common are full standard layout,
+		60%, and split. you can learn more about each layout and see pictures <a href="https://blog.wooting.nl/the-ultimate-guide-to-keyboard-layouts-and-form-factors/">Here</a>
+		</p>
+		<p class="pref"> 
+		<label for="layoutpref">From what you have learned, which layout would you prefer?</label> 
+			<input type="text" id="layoutpref" />
+		<p>
+		</div>
+		
+	<div>
+		<h2 class="clear">More about keyswitches</h2>
+		Mechanical keyboards offer lots of different types of keyswitches that can go underneath the caps on your board. Each of these switches operate
+		differently and have a unique feel to them. The main brand of switches are all made by a German company called Cherry. 
+		<h4>Cherry MX Blues</h4>
+		Cherry MX Blue switches are the type of switch that people typically associate with mechanical keyboards. They have a very distict
+		and clicky tactile bump when they reach the actuation point that give them their signiture click. These switches are great for typing but some people 
+		do not like them due to the noise they produce. Blues require 50g of force to reach the actuation point.
+		<h4>Cherry MX Browns</h4>
+		Cherry MX Browns Also have the tactile bump in the middle of the keypress just like blues, but without any of the noise. They are built to spring
+		back into place extra quickly after being pressed. Browns are a great middle ground for all around gaming and typing useage. They require only 45 g of actuation force.
+		<h4>Cherry MX Reds</h4>
+		Cherry MX Reds are a type of linear switch, meaning that there is no tactile response when you have hit the actuation point. The actuation point is
+		still in the middle of the keypress, but you will not feel anything until the key is bottomed out. Reds are very quiet and they are often a go to for gamers
+		who are using mechanical keyboards. These switches have an actuation force of 45 g.
+		<h4>Cherry MX Blacks</h4>
+		Blacks are extremely similar to Reds. They are a linear switch that operate very quietly. The difference between them is that blacks require 60 g of force making them
+		the hardest of the bunch to hit, and also have the heaviest feel to them with a 60g actuation force.
+		<p class="pref">
+			<label for="switchpref">From what you have learned, which type of switch would you prefer?</label> 
+			<input type="text" id="switchpref" />
+		</p>
+	</div>	
+	
+	<div class="caps">
+		<h3>More about keycaps</h3>
+		Another great thing about mechanical keyboards is that the keycaps are easily removeable and replaceable! Rarely is there a need to replace your keycaps, 
+		but there are plenty of fun Keycaps you can have to make your keyboard look great! Below are some examples of different keycaps. Many many more options exist, so take through some more
+		by doing your own search!
+			<p><img class="caps" id="mainpic" src="pictures/standard.jpg" alt="Picture of Alligator" /></p>
+						
+			<p id="caption">Nothing special about these. Just your typcial black keycaps.</p>
+			
+				<p>
+				<button onclick="image();">Standard Keycaps</button>
+				<button onclick="image1();">Pudding Keycaps</button>
+				<button onclick="image2();">Custom Purple</button>	
+				<button onclick="image3();">Custom Blanks</button>
+				</p>
+				
+		<p class="pref">
+			<label for="cappref">From the options you have seen, which type of caps would you prefer?</label> 
+			<input type="text" id="cappref" />
+		</p>	
+	</div>
+	
+	<div>	
+		<h2>So what are your preferences?</h2>
+		
+			<p><button onclick="preference();">Update and display preferences</button></p>
+		As you have gone through this wepage you have entered in what you would prefer. According to what you entered you would like a <text id="output"></text>
+	</div>
+	
+	<hr></hr>
+	
+	<div class="footer">
+		<p>
+          Thanks for reading! This page was created by Parker Adair.
+		</p>
+		Last edited 04/20/2020
+	</div>
+
+	
+</body>
+</html>
+</html>
