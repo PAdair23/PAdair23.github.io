@@ -205,6 +205,24 @@ input, textarea {
     margin-bottom: .5em;
 }
 
+.item {
+    background-color: #faf9f7;
+    margin: 1em;
+    padding: 1em;
+    overflow: auto;
+}
+
+.item img {
+    float: right;
+}
+
+#herocouch{
+    height: 300px;
+    background-image: url(images/herocouch.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
 @media (min-width: 600px) {
     header{
         text-align: center;
