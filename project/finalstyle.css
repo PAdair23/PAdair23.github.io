@@ -1,17 +1,15 @@
 body{
-	width: 1000px;
 	margin: auto;
-	background-color: #e6f7ff;
-	
+	background-color: #DBDBDB;
 }
 
 div.banner{
 	padding-top: 35px;
 	padding-bottom: 25px;
 	text-align: center;
-	font-size: 125%;
+	font-size: 140%;
 	background-image: url(pictures/monochrome1.jpg);
-	color: #ffffff;
+    background-repeat: no-repeat;
 }
 
 .banner li{
@@ -20,8 +18,36 @@ div.banner{
 }
 
 .banner a{
-	color: #00bfff;
-	font-size: 100%;
+	color: #e4e4e4;
+	font-size: 150%;
+}
+
+header{
+    background-color: #8c8c8d;
+    background-image: url(images/cup.jpg);
+    background-repeat: no-repeat;
+    color: #231814;
+    padding-left: 105px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header a:link {
+	color: #e4e4e4;
+}
+
+header a:visited {
+	color: #e4e4e4
+    ;
+}
+
+#wrapper{
+    background-color: #6b6e70;
+	padding: 0;
 }
 
 img.float{
@@ -38,7 +64,6 @@ clear: left;
 
 h4{
 	text-decoration: underline;
-	padding-left: 20px;
 }
 
 img.caps {
@@ -53,9 +78,9 @@ padding: 12px;
 }
 
 footer{
-	background-color: #333333;
+	background-color: #8c8c8c;
 	text-align: center;
-	color: #ffffff;
+	color: #e4e4e4;
 	padding-top: 1px;
 	padding-bottom: 10px;
 }
@@ -64,6 +89,9 @@ p.pref{
 	text-align: center;
 }
 
+footer a{
+    color: #e4e4e4
+}
 @media (min-width: 600px) {
     header{
         text-align: center;
@@ -83,19 +111,6 @@ p.pref{
         border-bottom: none;
     }
 
-    #homehero{
-        height: 50vh;
-        background-image: url(images/hero.jpg);
-    }
-
-    #heromugs{
-        background-image: url(images/heromugs.jpg);
-    }
-
-    #heroguitar{
-        background-image: url(images/heroguitar.jpg);
-    }
-
     #flow{
         display: flex;
         flex-direction: row;
@@ -113,12 +128,6 @@ p.pref{
         display: flex;
         flex-direction: row;
     }
-
-    h4{
-        margin-left: 10%;
-        margin-right: 10%
-    }
-
 }
 
 @media (min-width: 1024px) {
@@ -138,15 +147,6 @@ p.pref{
 		footer {
 			grid-area: footer;
 		}
-
-        #wrapper{
-            display: grid;
-            grid-template:
-                "header header"
-                "nav main"
-                "footer footer"
-                / 200px;
-        }
 
         nav ul {
             flex-direction: column;
