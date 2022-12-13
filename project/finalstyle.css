@@ -3,6 +3,11 @@ body{
 	background-color: #DBDBDB;
 }
 
+main h2, p, div, ul, dl{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 div.banner{
 	padding-top: 35px;
 	padding-bottom: 25px;
@@ -10,6 +15,7 @@ div.banner{
 	font-size: 140%;
 	background-image: url(pictures/monochrome1.jpg);
     background-repeat: no-repeat;
+    background-size: 100% 100%
 }
 
 .banner li{
@@ -22,15 +28,7 @@ div.banner{
 	font-size: 150%;
 }
 
-header{
-    background-color: #8c8c8d;
-    background-image: url(images/cup.jpg);
-    background-repeat: no-repeat;
-    color: #231814;
-    padding-left: 105px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+
 
 header a {
 	text-decoration: none;
